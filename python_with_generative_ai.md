@@ -186,3 +186,39 @@ ChatGPT can tailor indidual assignments to you and can help you through those so
 ## Complete a few more of the practice questions that you received from ChatGPT
 
 In the `a1_ai_problems.py` file, complete a few more of the problems that ChatGPT gave you.  Once you have completed them, make sure to answer the reflection questions in the writeup.
+
+Sure! Here are some programming challenge questions that range from beginner to intermediate level:
+
+Beginner Level
+Fibonacci Sequence
+
+Write a function that takes an integer n and returns the n-th number in the Fibonacci sequence. The Fibonacci sequence is defined as: F(0) = 0, F(1) = 1, and F(n) = F(n-1) + F(n-2) for n > 1.
+Palindrome Checker
+
+Write a function that checks if a given string is a palindrome. A palindrome is a string that reads the same backward as forward (e.g., "radar" or "level").
+Factorial Calculation
+
+Write a function that computes the factorial of a non-negative integer n. The factorial of n (denoted n!) is the product of all positive integers less than or equal to n.
+Find the Largest Element
+
+Write a function that takes a list of integers and returns the largest number in the list.
+Sum of Digits
+
+Write a function that takes an integer and returns the sum of its digits. For example, for the input 123, the output should be 6 (since 1 + 2 + 3 = 6).
+Intermediate Level
+Prime Number Checker
+
+Write a function that determines whether a given integer is a prime number. A prime number is a number greater than 1 that has no positive divisors other than 1 and itself.
+Merge Sorted Lists
+
+Write a function that takes two sorted lists of integers and merges them into a single sorted list. The resulting list should also be sorted.
+Reverse a String
+
+Write a function that takes a string and returns the string in reverse order. For example, given the input "hello", the output should be "olleh".
+Two Sum Problem
+
+Write a function that takes a list of integers and a target integer. The function should return the indices of the two numbers that add up to the target integer. Assume there is exactly one solution and you may not use the same element twice.
+Matrix Transpose
+
+Write a function that takes a 2D matrix (list of lists) and returns its transpose. The transpose of a matrix is obtained by swapping rows with columns. For example, the transpose of [[1, 2, 3], [4, 5, 6]] is [[1, 4], [2, 5], [3, 6]].
+Feel free to ask if you need help with any of these problems or if you'd like more challenges!
