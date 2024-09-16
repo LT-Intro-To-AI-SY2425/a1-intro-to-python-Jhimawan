@@ -25,12 +25,23 @@ def absolute(n: int) -> int:
     Returns:
         the absolute value of the passed in number
     """
-    raise NotImplementedError("absolute")
-
+    return n
 
 def factorial(n: int) -> int:
+    i = n
+
+    while n >= 1:
+        i = i * (n-1)
+        n = n - 1
+
+    result = 1
+    for x in range(n + 1)
+        result *= x
+    return result
+
     """Takes a number n, and computes the factorial n! You can assume the passed in
     number will be positive
+
 
     Args:
         n - the number to compute factorial of
@@ -38,7 +49,7 @@ def factorial(n: int) -> int:
     Returns:
         factorial of the passed in number
     """
-    raise NotImplementedError("factorial")
+    return i
 
 
 T = TypeVar("T")
