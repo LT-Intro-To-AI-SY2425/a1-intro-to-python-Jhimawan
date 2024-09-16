@@ -25,7 +25,7 @@ def absolute(n: int) -> int:
     Returns:
         the absolute value of the passed in number
     """
-    return n
+    raise NotImplementedError("absolute")
 
 def factorial(n: int) -> int:
     i = n
@@ -82,7 +82,10 @@ def sum_list(lst: List[int]) -> int:
     Returns:
         the sum of the passed in list
     """
-    raise NotImplementedError("sum_list")
+    result = 0
+    for el in lst:
+        result += el
+    return result
 
 
 def mean(lst: List[int]) -> float:
