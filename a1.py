@@ -35,7 +35,7 @@ def factorial(n: int) -> int:
         n = n - 1
 
     result = 1
-    for x in range(n + 1)
+    for x in range(1, n + 1):
         result *= x
     return result
 
@@ -66,7 +66,10 @@ def every_other(lst: List[T]) -> List[T]:
     Returns:
         a list of every of other item in the original list starting with the first
     """
-    raise NotImplementedError("every_other")
+    new_lst = []
+    for i in range(0, len(lst), 2):
+        new_lst.append(lst[i])
+    return new_lst
 
 
 def sum_list(lst: List[int]) -> int:
