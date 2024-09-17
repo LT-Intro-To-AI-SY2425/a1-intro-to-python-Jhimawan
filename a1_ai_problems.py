@@ -23,11 +23,16 @@ def fibonacci(n):
     a, b = 0, 1
 
     while a < n:
-
         a, b = b, b + a
 
     return b
 
+def factorial(n):
+    x = 1
+    for i in range(1, n + 1):
+        x *= i
+    return x
 
 
-
+def count_vowels(n):
+    return x
