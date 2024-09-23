@@ -35,7 +35,7 @@ def factorial(n: int) -> int:
         n = n - 1
 
     result = 1
-    for x in range(1, n + 1):
+    for x in range(1, x + 1, n):
         result *= x
     return result
 
@@ -139,7 +139,22 @@ def duck_duck_goose(lst: List[str]) -> List[str]:
     Returns:
         the resulting list after playing duck duck goose
     """
-    raise NotImplementedError("duck_duck_goose")
+    i = 0
+    current = "duck1"
+    while len(lst) > 2:
+        if current == "duck1":
+            i += 1
+            current = "duck2"
+        elif current == "duck2":
+            i +=1
+            current = "goose"
+        elif current == "goose":
+            lst.pop(i)
+            current = "duck1"
+
+        i += 1
+    if i == len(lst): i = 0
+    return lst
 
 
 # this line causes the nested code to be skipped if the file is imported instead of run

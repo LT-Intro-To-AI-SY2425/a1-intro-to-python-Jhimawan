@@ -29,10 +29,16 @@ def fibonacci(n):
 
 def factorial(n):
     x = 1
-    for i in range(1, n + 1):
+    for i in range(1, n + 1, n):
         x *= i
     return x
 
 
 def count_vowels(n):
+    x = 0
+    i = 0
+    n = n.lower()
+    for letter in n:
+        if ord(letter) == a:
+
     return x
