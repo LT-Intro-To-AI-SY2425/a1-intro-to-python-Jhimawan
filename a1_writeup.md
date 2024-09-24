@@ -13,11 +13,16 @@ Mr. Berg will look at all your files to determine what you have completed.  If t
 ## Reflection Questions
 
 1. What is your initial thoughts about the python programming language?
-
+     Python is more simple than Java, I'm not sure if I would call it easier since my first language was Java and I am more accustomed to the syntax and function of it but I understand why it is a favorable language as it is more updated and adaptable than Java.
 
 
 2. Describe some similarities and differences that you found between python and other programming languages you have used in the past?
-
+ Python does not require semicolons at the end of statements and code within loops and if statements are defined by indenting, not bracketing.
 
 
 3. What are some things that you learned through this assignment?
+
+
+ I learned some basic Python functions and how to implement for and while loops the python way.
+
+ JOnathan HImawan
